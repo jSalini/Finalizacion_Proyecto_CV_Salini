@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2? family = Neucha & family = Roboto + Condensed: wght @ 300; 400; 700 & display = swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 16px; }
+
+nav {
+  background-color: #FFFFFF; }
+
+nav img {
+  width: 100px; }
+
+article img {
+  width: 100px; }
+
+footer {
+  background-color: #DEE5FD;
+  padding: 50px;
+  padding-bottom: 3rem; }
+
+video {
+  width: 100%; }
+
+.derecha {
+  float: right;
+  padding-top: 10px; }
+
+.social-bar {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100; }
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s; }
+
+.icon-mail4 {
+  background: #CACECE; }
+
+.icon-facebook2 {
+  background: #2E406E; }
+
+.icon-instagram {
+  background: #E92F11; }
+
+.icon-whatsapp {
+  background: #00BB2D; }
+
+.icon-linkedin {
+  background: #2E406E; }
+
+.icon:first-child {
+  border-radius: 1rem 0 0 0; }
+
+.icon:last-child {
+  border-radius: 0 0 0 1rem; }
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
